@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Sigmar+One&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body{
+    margin: 0;
+    display: flexbox;
+    background-color: #f0ab4f;
+    font-family: 'Sigmar One', sans-serif;
+    
+}
+
+/* BARRA DE MENU SUPERIOR */
+nav.row-menu {
+    background-color: #f0ab4f;
+    display: flex;
+    padding: 10px 12px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login {
+    display: flex;
+    gap: 10px;
+}
+
+.login li{
+    list-style: none;
+}
+
+
+nav a {
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    padding: 12px 69px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+
+nav a:hover {
+    background-color: #ffffd0;
+    border-radius: 40px;
+    color: black;
+}
+
+.btn-login{
+    padding: 10px 12px;
+}
+
+.btn-register{
+    padding: 10px 12px;
+}
+
+header{
+    padding-top: 16px;
+    text-align: center;
+    background-color: #f8d590;
+    padding-bottom: 16px;
+}
+
+header img{
+    border-radius: 50%;
+    width: 50vh;
+}
+
+/* BARRA DE PESQUISA */
+
+.pesquisa{
+    padding-top: 10px;
+}
+
+.pesquisa input{
+    width: 200px;
+    height: 26px;
+    margin-left: 90vh;
+    background-image: url(../img/lupa-arredondada.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 20px;
+    border: none;
+}
+
+/* ICONE DOS BNT DO MENU*/
+
+.dog-icon {
+    transition: transform 0.3s ease, background-size 0.3s ease;
+}
+
+.dog-icon:hover{
+    background-image: url(../img/homepage/retriever-dourado.png);
+    background-size: 42px;
+    background-repeat: no-repeat;
+    background-position: 90%;
+    transform: scale(1.1);
+}
+
+.cat-icon {
+    transition: transform 0.3s ease, background-size 0.3s ease;
+}
+
+.cat-icon:hover{
+    background-image: url(../img/homepage/gato.png);
+    background-size: 41px;
+    background-repeat: no-repeat;
+    background-position: 90%;
+    transform: scale(1.1);
+}
+
+.other-icon:hover{
+    background-image: url(../img/homepage/camaleao.png);
+    background-size: 41px;
+    background-repeat: no-repeat;
+    background-position: 90%;
+    transform: scale(1.1);
+}
+
+.shop-icon:hover{
+    background-image: url(../img/homepage/carrinho-de-supermercado.png);
+    background-size: 41px;
+    background-repeat: no-repeat;
+    background-position: 90%;
+    transform: scale(1.1);
+}
+
+.row-menu a{
+    transition: transform 0.3s ease, background-size 0.3s ease;
+}
+
+.row-menu a:hover{
+    transform: scale(1.1);
+} 
