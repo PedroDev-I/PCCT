@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e6f4ea;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.voltar-btn img {
+    width: 30px;
+    margin-bottom: 20px;
+}
+
+.adicionar {
+    display: flex;
+    flex-direction: column;
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: 600;
+    color: #333;
+}
+
+.input-padrao {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.input-padrao:focus {
+    border-color: #5a67d8;
+}
+
+.btn-finalizar {
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f8bbd0;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-finalizar:hover {
+    background-color: #434190;
+}
